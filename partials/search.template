@@ -1,0 +1,7 @@
+<% if (obj.length) { %>
+<% obj.forEach(function(one){ %>
+<div class="center">
+    <%= one.str %>
+</div>
+<% }) %>
+<% } %>

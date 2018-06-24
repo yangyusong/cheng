@@ -1,0 +1,17 @@
+{
+  "name": "score",
+  "link": "http://score.zip",
+  "category": 1,
+  "description": "score",
+  "tags": "score",
+  "icon": "http://score.png",
+  "delegates": [
+    "7ebc65d613fd7930bcc4e64f032e5047198a792afda99ba3b0261726d23e6c50",
+    "06de62fd6630ee55df714becd1e70b59b7065092225db6f9c76565975d95b06a",
+    "da4ba0c2e34f6d9153b47faf64f48f6e98fc3b51dfed60eba95263f76a7a5de4",
+    "b7b428ab8075cbc804c064f716ee4b1d4de75fe2882b5bcf71fde0ba8c61eff3",
+    "7c737940319f9680b827755967ea6dc644297008beca7dc995bd5230a9bcc9e9"
+  ],
+  "unlockDelegates": 3,
+  "type": 0
+}

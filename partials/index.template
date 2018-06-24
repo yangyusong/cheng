@@ -1,0 +1,102 @@
+<% if (obj.length) { %>
+<% obj.forEach(function(one){ %>
+<div class="remove_node ui_cell 37F604B78329">
+    <form>
+        <fieldset>
+            <legend>添加成绩</legend>
+
+            <div class="remove_node ui_cell 9CAA67C52075">
+                <div class="container-fluid">
+                    <div class="row"></div>
+                </div>
+            </div>
+            <div class="remove_node ui_cell F5917190C108">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="4742549F367E ui_grid_cell col-xs-4"> </div>
+                        <div class="439760FF7FC6 ui_grid_cell col-xs-4">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="4742549F367E ui_grid_cell col-xs-4">
+                                        <label>学生名称</label>
+                                    </div>
+                                    <div class="439760FF7FC6 ui_grid_cell col-xs-8">
+                                        <input class="form_name" type="text" value="yang"/>
+                                    </div>
+                                </div>
+
+                                <div class="row mt5">
+                                    <div class="4742549F367E ui_grid_cell col-xs-4">
+                                        <label>时间戳（机器生成）</label>
+                                    </div>
+                                    <div class="439760FF7FC6 ui_grid_cell col-xs-8">
+                                        <input class="form_timestamp" type="text" value="12340000"/>
+                                    </div>
+                                </div>
+
+                                <div class="row mt5">
+                                    <div class="4742549F367E ui_grid_cell col-xs-4">
+                                        <label>上链人员</label>
+                                    </div>
+                                    <div class="439760FF7FC6 ui_grid_cell col-xs-8">
+                                        <input class="form_recorder" type="text" value="ktecher"/>
+                                    </div>
+                                </div>
+
+                                <div class="row mt5">
+                                    <div class="4742549F367E ui_grid_cell col-xs-4">
+                                        <label>出成绩时间</label>
+                                    </div>
+                                    <div class="439760FF7FC6 ui_grid_cell col-xs-8">
+                                        <input class="form_time" type="text" value="2018-6-12"/>
+                                    </div>
+                                </div>
+
+                                <div class="row mt5">
+                                    <div class="4742549F367E ui_grid_cell col-xs-4">
+                                        <label>科目</label>
+                                    </div>
+                                    <div class="439760FF7FC6 ui_grid_cell col-xs-8">
+                                        <input class="form_subject" type="text" value="eng"/>
+                                    </div>
+                                </div>
+
+                                <div class="row mt5">
+                                    <div class="4742549F367E ui_grid_cell col-xs-4">
+                                        <label>得分</label>
+                                    </div>
+                                    <div class="439760FF7FC6 ui_grid_cell col-xs-8">
+                                        <input class="form_score" type="text" value="120"/>
+                                    </div>
+                                </div>
+
+                                <div class="row mt5">
+                                    <div class="4742549F367E ui_grid_cell col-xs-4">
+                                        <label>备注</label>
+                                    </div>
+                                    <div class="439760FF7FC6 ui_grid_cell col-xs-8">
+                                        <input class="form_comments" type="text" value="pass"/>
+                                    </div>
+                                </div>
+
+                                <div class="row mt5">
+                                    <div class="4742549F367E ui_grid_cell col-xs-4">
+
+                                    </div>
+                                    <div class="439760FF7FC6 ui_grid_cell col-xs-8">
+                                        <button type="" onclick="add()" class="btn">提交</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="82D8274B2C63 ui_grid_cell col-xs-4"> </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </fieldset>
+    </form>
+</div>
+<% }) %>
+<% } %>

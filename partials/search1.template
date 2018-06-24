@@ -1,0 +1,9 @@
+<% if (obj.length) { %>
+<% obj.forEach(function(one){ %>
+<div class="center">
+    <div class="4742549F367E ui_grid_cell col-xs-4">
+        <%= one.content %>
+    </div>
+</div>
+<% }) %>
+<% } %>

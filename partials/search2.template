@@ -1,0 +1,6 @@
+<div class="4742549F367E ui_grid_cell col-xs-4">
+    <label><%= key %></label>
+</div>
+<div class="439760FF7FC6 ui_grid_cell col-xs-8">
+    <input class="form_name" type="text" value="<%= value %>"/>
+</div>
